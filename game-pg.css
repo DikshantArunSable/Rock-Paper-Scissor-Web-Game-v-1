@@ -1,0 +1,48 @@
+     body{margin:0; padding:0;min-height:100vh;background: linear-gradient(to bottom right, #f2fc9b 0%, #a6fc99 100%); background-repeat: no-repeat}
+      
+      .rules{display:inline;margin:0px 20px 0px 20px;padding: 10px 20px 10px 20px;background: green; width:300px; height:50px; border:none;border-radius: 10px;color:white;font-weight:500;}
+      
+.game-container {
+        background: #333;height:100%;padding:50px;text-align:center;margin:20px;border:5px solid #FF9191;border-radius:20px}
+      
+      #status{color: chartreuse;font-size: 30px;font-weight: 800;font-family: 'Games', sans-serif;letter-spacing: 5px
+    }
+      
+      .user-control,.control-images{display:flex;align-items: center;justify-content: space-evenly;}
+      
+      
+      .cimg{ width:100px; height:100px; background-size:cover;background-repeat: no-repeat;border-radius: 25px;}
+      
+      button{padding: 10px; width:100px; background:#af0; border:3px solid #000; border-radius: 20px;font-size: 15px;font-weight: 800; color:#000;box-shadow: 0 5px #999;font-family: 'Sweet Darling', sans-serif;letter-spacing: 1px;
+}
+
+.user-control button:hover{color:white; background:green;}
+
+.user-control button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+hr{margin: 10px 10px; border:1px solid green}
+h4{margin: 0;padding: 0;color: green}
+
+.scores{
+  display: flex;
+  align-items: center;
+  justify-content: space-around ;height:32px;
+  margin-left: 5%;
+  margin-right: 20px;
+  background: seagreen;
+  border-radius: 5px;
+}
+h3{color: #fff;font-size: 18px}
+
+.myDIV{
+  display: none;
+}
+
+.back{
+  width:30px;
+  margin: 0px 170px 0px 20px;
+}
